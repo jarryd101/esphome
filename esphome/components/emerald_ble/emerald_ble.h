@@ -53,7 +53,7 @@ static const uint32_t RETURN_IMPULSE_CMD =                  0x0001010602;
 static const uint32_t RETURN_PAIRING_CODE_CMD =              0x0001030206;
 static const uint32_t RETURN_DEVICE_TIME_CMD =               0x0001010304;
 
-static const uint8_t standard_update_interval = 30;    // seconds
+static const uint8_t standard_update_interval = 60;    // seconds
 static const float kw_to_w_conversion = 1000.0;    // conversion ratio
 
 
